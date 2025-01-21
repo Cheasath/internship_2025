@@ -7,6 +7,7 @@ import Gallery from './Components/Gallery.jsx';
 import './App.css';
 
 function App() {
+  const [count, setCount] = useState(0)
   return (
     <div>
        <ClassCompEG />
