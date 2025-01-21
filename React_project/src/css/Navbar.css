@@ -1,0 +1,10 @@
+ol{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    text-decoration: green;
+    margin: 0px;
+    padding: 10px;
+    background-color:olive;
+    color: blue;
+}
