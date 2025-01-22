@@ -8,6 +8,7 @@ import Home from './Components/Home.jsx';
 import About from './About.jsx';
 import './App.css';
 import Navbar from './Components/Navbar.jsx';
+import Signup from './Components/Signup.jsx';
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 function App() {
   const [count, setCount] = useState(0)
@@ -20,6 +21,7 @@ function App() {
           <Route path='/about' element={<About/>}></Route>
           <Route path='/gallery' element={< Gallery image="React LOGO" page="picture"/>}></Route>
           <Route path='/Contact' element={<Contact/>}></Route>
+          <Route path='/signup' element={<Signup/>}></Route>
         </Routes>         
     </BrowserRouter>
        
