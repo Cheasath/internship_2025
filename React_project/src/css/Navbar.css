@@ -8,3 +8,13 @@ ol{
     background-color:olive;
     color: blue;
 }
+.link{
+    text-decoration: none;
+    color: brown;
+    padding: 5px;
+}
+.link:hover{
+    background-color:black;
+    color: aqua;
+    border-radius: 15px;
+}
