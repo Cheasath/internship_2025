@@ -11,13 +11,15 @@ const Navbar=()=>{
                     <li><Link className='link' to='/about'>About</Link></li>
                     <li><Link className='link' to='/gallery'>Gallery</Link></li>
                     <li><Link className='link' to='/Contact'>Contact</Link></li>
-                    <li><Link className='link' to='/use-effect-api'>UseEffectAPI</Link></li>
                     <div onMouseOver={()=>setdd(true)} onMouseLeave={()=>setdd(false)}>
                         <span className='link'>Hooks</span>
                         {dropdown &&(
                         <ul>
                             <li><Link to='/use-state' className='link'>useState</Link></li>
                             <li><Link to='/use-effect' className='link'>useEffect</Link></li>
+                            <li><Link to='/use-effect-api' className='link'>useEffectAPI</Link></li>
+                            <li><Link to='/use-memo' className='link'>useMemo</Link></li>
+                            <li><Link to='/use-ref' className='link'>useRef</Link></li>
                         </ul>
                     )}
                     </div>

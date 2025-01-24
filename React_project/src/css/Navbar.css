@@ -5,12 +5,12 @@ ol{
     text-decoration: green;
     margin: 0px;
     padding: 10px;
-    background-color:olive;
+    background-color:green;
     color: blue;
 }
 .link{
     text-decoration: none;
-    color: brown;
+    color: white;
     padding: 5px;
 }
 .link:hover{
