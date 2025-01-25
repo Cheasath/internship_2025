@@ -1,5 +1,5 @@
 import { useCallback, useState } from "react";
-import NavBar from "../Navbar";
+import NavBar from "./Navbar";
 import List from "./list";
 const UseCallback = () => {
   var [num, setNum] = useState(0);

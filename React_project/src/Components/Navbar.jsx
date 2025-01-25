@@ -15,11 +15,13 @@ const Navbar=()=>{
                         <span className='link'>Hooks</span>
                         {dropdown &&(
                         <ul>
+                            <li><Link to='/reactlm' className='link' >ReactLifeCycleMethods</Link></li>
                             <li><Link to='/use-state' className='link'>useState</Link></li>
                             <li><Link to='/use-effect' className='link'>useEffect</Link></li>
                             <li><Link to='/use-effect-api' className='link'>useEffectAPI</Link></li>
                             <li><Link to='/use-memo' className='link'>useMemo</Link></li>
                             <li><Link to='/use-ref' className='link'>useRef</Link></li>
+                            <li><Link to='/use-call-back' className='link'>useCallback</Link></li>
                         </ul>
                     )}
                     </div>
