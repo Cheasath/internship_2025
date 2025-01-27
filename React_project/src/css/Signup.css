@@ -29,7 +29,7 @@
   }
   
   .signup .input input:focus {
-    border-color: #4CAF50;
+    border-color: #666966;
     outline: none;
   }
 .signup .btn {

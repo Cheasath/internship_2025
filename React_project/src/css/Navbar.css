@@ -1,20 +1,68 @@
-ol{
-    display: flex;
-    justify-content: space-around;
-    list-style-type: none;
-    text-decoration: green;
-    margin: 0px;
-    padding: 10px;
-    background-color:green;
-    color: blue;
-}
-.link{
+header{
+    padding: 3px;
+    background-color: rgb(127, 143, 145);
+  }
+  
+  body {
+    background-color: rgb(88, 92, 92);
+    color: antiquewhite;
+  }
+    nav ul{
+      
+      text-decoration: none;
+      list-style-type: none;
+      display: flex;
+      justify-content: space-around;
+  
+    }
+  .link{
     text-decoration: none;
-    color: white;
-    padding: 5px;
-}
-.link:hover{
-    background-color:black;
-    color: aqua;
-    border-radius: 15px;
-}
+    color: #eeff00;
+    padding: 3px;
+  }
+  
+  .link:hover{
+    background-color: rgb(238, 141, 14);
+  }
+  .dropdown {
+    position: relative;
+  }
+  
+  .dropDownContent {
+    display: none;
+    position: absolute;
+    top: 100%; 
+    left: 7px;
+    background-color: #f4d0d0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    border-radius: 4px;
+  }
+  
+  .dropDownContent .link {
+    display: block;
+    padding: 5px 10px;
+    color: black;
+    text-decoration: none;
+  }
+  
+  .dropdown:hover .dropDownContent {
+    display: block;
+  }
+  
+  .dropDownContent .link:hover {
+    background-color: #1197d1;
+  }
+  .grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  
+  }
+  .items-of-grid{
+    height: 200px;
+    width:200px;
+  }
+  .items-of-grid img{
+    height: 200px;
+    width:200px;
+  }

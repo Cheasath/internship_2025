@@ -21,6 +21,9 @@ import ReactLifecycleMethods from './Components/ReactLifeCycleMethods.jsx';
 import Memo from './Memoization/Memo.jsx';
 import UpdateNumber from './Memoization/UpdateNumber.jsx';
 import UpdateText from './Memoization/UpdateText.jsx';
+import LazyLoadingSuspense from './Memoization/LazyLoadingSuspense';
+import UseLocalStorage from './Components/useLocalStorage.jsx';
+import HoC from './HOC/hoc.jsx';
 function App() {
   const [count, setCount] = useState(0)
   return (
@@ -44,6 +47,9 @@ function App() {
           <Route path="/memo" element={<Memo />} />
           <Route path="/update-number" element={<UpdateNumber />} />
           <Route path="/update-text" element={<UpdateText />} />
+          <Route path="/lazy" element={<LazyLoadingSuspense/>}> </Route>
+          <Route path='/customHook' element={<UseLocalStorage/>}></Route>
+          <Route path='/hoc' element={<HoC/>}></Route>
         </Routes>         
     </BrowserRouter>
        
